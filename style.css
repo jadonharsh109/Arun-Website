@@ -11,7 +11,9 @@ html {
 }
 
 .navbar {
-    padding: 15px 0 !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-right: 80px !important;
 }
 
 .navbar ul li {
@@ -25,7 +27,7 @@ html {
 
 .about {
     height: fit-content;
-    padding: 40px 0;
+    padding: 50px 0;
 }
 
 @media (max-width: 858px) {
@@ -47,6 +49,12 @@ html {
     #about h1,
     #contact h1 {
         margin-top: 10px !important;
+    }
+
+    .navbar {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+        padding-right: 0 !important;
     }
 
 }
